@@ -1,4 +1,4 @@
-Ibis demo materials
+Ibis tutorial/demo materials
 ===
 
 First time user?
@@ -16,7 +16,7 @@ Navigate to where this was downloaded and run something like
 
     $ bash Anaconda-2.1.0-Linux-x86_64.sh
 
-Do not use sudo. Accept the license. I recommend using $HOME/anaconda as the
+Do not use sudo. Accept the license. I recommend using `$HOME/anaconda` as the
 installation folder.
 
 `$HOME/anaconda/bin` needs to be added to your system path. You can let the
