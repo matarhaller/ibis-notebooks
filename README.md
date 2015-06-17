@@ -39,7 +39,9 @@ you're running Anaconda Python:
 
 Now, time to install Ibis. Install directly from a supplied tarball
 
-    $ pip install --upgrade ibis-0.1.0.tar.gz
+    $ tar xvf ibis-0.2.0.tar.gz
+    $ cd ibis-0.2.0
+    $ python setup.py install
 
 Or, if you have a git clone, run
 
