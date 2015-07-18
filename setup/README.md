@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-    curl -s http://github.com/cloudera/ibis-notebooks/raw/master/setup/bootstrap.sh | bash
+    curl -s https://raw.githubusercontent.com/cloudera/ibis-notebooks/master/setup/bootstrap.sh | bash
 
 ## Single Steps
 

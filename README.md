@@ -6,7 +6,7 @@ TL;DR
 
 Make sure you have VirtualBox, Anaconda, and Ibis installed. Run
 
-    curl -s http://github.com/cloudera/ibis-notebooks/raw/master/setup/bootstrap.sh | bash
+    curl -s https://raw.githubusercontent.com/cloudera/ibis-notebooks/master/setup/bootstrap.sh | bash
 
 to download the ibis-notebooks repositories and the pre-built VirtualBox image
 to get you started.
