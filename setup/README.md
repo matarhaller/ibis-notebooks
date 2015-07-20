@@ -13,7 +13,7 @@ instructions:
   * Make sure Anaconda is installed. You can get it from
     `http://continuum.io/downloads`. Now prepend the Anaconda Python
     to your path like this `export PATH=$ANACONDA_HOME/bin:$PATH`
-  * `pip install ibis`
+  * `pip install ibis-framework`
   * `git clone https://github.com/cloudera/ibis-notebooks.git`
   * `cd ibis-notebooks`
   * `./setup/setup-ibis-demo-vm.sh`

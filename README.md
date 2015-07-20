@@ -47,41 +47,18 @@ you're running Anaconda Python:
 
     In [1]:
 
-Now, time to install Ibis. Install directly from a supplied tarball
+Now, time to install Ibis.
 
-    $ tar xvf ibis-0.2.0.tar.gz
-    $ cd ibis-0.2.0
-    $ python setup.py install
+    $ pip install ibis-framework
 
 Or, if you have a git clone, run
 
     $ python setup.py install
 
-Verify your installation by running the test suite:
-
-	$ python -c "import ibis; ibis.test()"
-	================================== test session starts ==================================
-	platform linux2 -- Python 2.7.9 -- py-1.4.25 -- pytest-2.6.3
-	plugins: xdist
-	collected 294 items
-
-	../ibis/ibis/expr/tests/test_base.py ......................................................................................................................................
-	../ibis/ibis/expr/tests/test_decimal.py ....
-	../ibis/ibis/expr/tests/test_sql_builtins.py ....
-	../ibis/ibis/expr/tests/test_string.py ....
-	../ibis/ibis/expr/tests/test_timestamp.py ....
-	../ibis/ibis/sql/tests/test_compiler.py ...................................................ss........................
-	../ibis/ibis/sql/tests/test_exprs.py ..........................
-	../ibis/ibis/tests/test_comms.py ssssssssssssssssssssss
-	../ibis/ibis/tests/test_server.py ....
-	../ibis/ibis/tests/test_tasks.py ssssssss
-
-	========================= 7 tests deselected by "-m 'not e2e'" ==========================
-	================= 255 passed, 32 skipped, 7 deselected in 1.70 seconds ==================
-
 Now, you're in business. Fire up the IPython notebook here by writing:
 
 	$ ipython notebook
 
-Start with the stuff in `basic-tutorial`. Assumes access to an Impala
-server with the standard functional and TPC-H test datasets are available.
+Start with the stuff in `basic-tutorial`. Assumes access to an Impala server
+with the standard functional and TPC-H test datasets are available. You will
+almost certainly need to change the connection details.
